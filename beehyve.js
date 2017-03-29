@@ -1,11 +1,14 @@
 //document.getElementById("quiz").innerHTML = "New text!";
 
 //self executing anonymous function
+//var express = require('express');
+
+var userAnswers = [];
 $(function(){
     var error = $("#error");
     error.hide();
     var answers = allAnswers.answers;
-    var userAnswers = [];
+    
     var questionCount = answers.length;
     var questionStatus = $("#questionNumber");
     var questionsList = $(".question");
@@ -227,7 +230,8 @@ $(function(){
 					 return false;
     }); 
     
-    //figure out unchecking issue
-    //add comments
+    
     
 }); 
+
+module.exports = userAnswers;
