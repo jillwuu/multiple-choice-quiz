@@ -1,10 +1,11 @@
 //document.getElementById("quiz").innerHTML = "New text!";
 
 //self executing anonymous function
-//var express = require('express');
+
+
 
 var userAnswers = [];
-$(function(){
+//$(function(){
     var error = $("#error");
     error.hide();
     var answers = allAnswers.answers;
@@ -232,6 +233,6 @@ $(function(){
     
     
     
-}); 
+//}); 
 
 module.exports = userAnswers;
