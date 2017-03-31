@@ -15,14 +15,12 @@
   "bugs": {
     "url": "https://github.com/jillwuu/multiple-choice-quiz/issues"
   },
-    
   "homepage": "https://github.com/jillwuu/multiple-choice-quiz#readme",
   "dependencies": {
-    "express": "^4.15.2"
-  }, 
-    
-    "engines": {
+    "express": "^4.15.2",
+    "http": "0.0.0"
+  },
+  "engines": {
     "node": "6.10.1"
   }
-    
 }
